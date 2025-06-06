@@ -112,3 +112,8 @@ let inventarioBeta = [
 
       //14. Separe os 10 últimos itens do inventário Alpha para estudo temporal.
       console.log(`Parte do inventário Alpha (índices 17 a 28): ${inventarioAlpha.slice(17, 28)}`);
+
+      //15. O quinto item da Alpha foi substituído por uma versão mais moderna. Atualize.
+      let elementoAlterado = inventarioAlpha.splice(5, 1, "Ampulheta Galáctica 2.0");
+      console.log(`A versão mais moderna do quinto item é: ${inventarioAlpha.join(', ')}`);
+      console.log(`Elementos alterados: ${elementoAlterado.join(', ')}`);
