@@ -125,3 +125,8 @@ let inventarioBeta = [
       //17.Unifique os inventários Alpha e Beta em uma única estrutura.
       console.log(`Inventários combinados: ${inventarioAlpha.concat(inventarioBeta)}`);
       console.log(`Inventários combinados: ${inventarioAlpha.concat(inventarioBeta).join(', ')}`);
+
+      //18. Junte os cinco primeiros itens de cada nave em uma nova vitrine de destaques.
+      let novoInvatarioBeta = inventarioBeta.splice(0, 5);
+      let novoInventarioAlpha = inventarioAlpha.splice(0, 5);
+      console.log(`Inventários combinados: ${novoInventarioAlpha.concat(novoInvatarioBeta)}`);
