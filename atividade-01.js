@@ -31,4 +31,4 @@ let inventarioAlpha = [
   let elementoRemovido = inventarioAlpha.pop();
 
 console.log(`Depois do pop: ${inventarioAlpha}`);
-console.log(`Música removida: ${elementoRemovido}`);
+console.log(`Elemento removida: ${elementoRemovido}`);
