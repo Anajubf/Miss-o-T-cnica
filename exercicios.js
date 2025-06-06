@@ -109,3 +109,6 @@ let inventarioBeta = [
       //13. Gere uma nova lista com os 5 primeiros itens da nave Beta para inspeção.
       let novaLista = inventarioBeta.splice(0, 5);
       console.log("A nova lista é:" , novaLista );
+
+      //14. Separe os 10 últimos itens do inventário Alpha para estudo temporal.
+      console.log(`Parte do inventário Alpha (índices 17 a 28): ${inventarioAlpha.slice(17, 28)}`);
