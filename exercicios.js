@@ -92,3 +92,8 @@ let inventarioBeta = [
       inventarioBeta.unshift(itemDestaque1);
       inventarioBeta.splice (4, 1);
       console.log("O item promovido foi:" , inventarioBeta);
+
+      // 7. Um artefato incorreto foi inserido no topo da Alpha por engano. Ele deve ser excluído.
+      let elementoRemovido02 = inventarioAlpha.shift();
+      console.log("O artefato incorreto removido:", inventarioAlpha);
+      console.log("Elemento removido:", elementoRemovido02);
