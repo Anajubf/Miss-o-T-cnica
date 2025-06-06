@@ -74,3 +74,9 @@ let inventarioBeta = [
     ["Esfera de luz", "Terra", 5200])
   
     console.log(`Depois do push: ${inventarioAlpha}`);
+
+// 4. Dois artefatos especiais de Kepler foram coletados e adicionados à nave Beta.
+    inventarioBeta.push (["Pó solar", "Terra", 4300 ], 
+        ["Fluido de Netuno", "Sol", 6500])
+      
+      console.log(`Os dois artefatos adicionados são: ${inventarioBeta}`);
