@@ -102,3 +102,6 @@ let inventarioBeta = [
       let elementoRemovido03 = inventarioBeta.shift();
       console.log("O artefato incorreto removido:", inventarioBeta);
       console.log("Elemento removido:", elementoRemovido03);
+
+      //12. Crie um texto com os nomes dos 10 primeiros itens da Beta, separados por vírgulas.
+      console.log(`Parte do inventário Beta (índices 0 a 10): ${inventarioBeta.slice(0, 10)}`);
