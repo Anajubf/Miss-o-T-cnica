@@ -80,3 +80,9 @@ let inventarioBeta = [
         ["Fluido de Netuno", "Sol", 6500])
       
       console.log(`Os dois artefatos adicionados são: ${inventarioBeta}`);
+
+      //5.Um item da Alpha precisa aparecer no topo da lista para ser destacado na vitrine.
+      let itemDestaque = inventarioAlpha [13];
+      inventarioAlpha.unshift(itemDestaque);
+      inventarioAlpha.splice (14, 1);
+      console.log(`O item que precisa ser destacado e aparecer no topo da lista ${inventarioAlpha} `);
