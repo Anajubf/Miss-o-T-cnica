@@ -136,5 +136,3 @@ let inventarioBeta = [
       let ultimosElementos = inventarioAlpha.slice (17, 28)
       console.log("O invetário Alpha invertido:" , inventarioAlphaInvertido.reverse());
       console.log("Os últimos elementos do array:" , inventarioAlphaInvertido.concat(ultimosElementos));
-
-      
