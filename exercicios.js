@@ -104,4 +104,8 @@ let inventarioBeta = [
       console.log("Elemento removido:", elementoRemovido03);
 
       //12. Crie um texto com os nomes dos 10 primeiros itens da Beta, separados por vírgulas.
-      console.log(`Parte do inventário Beta (índices 0 a 10): ${inventarioBeta.slice(0, 10)}`);
+      console.log(`Parte do inventário Bata (índices 0 a 10): ${inventarioBeta.slice(0, 10)}`);
+
+      //13. Gere uma nova lista com os 5 primeiros itens da nave Beta para inspeção.
+      let novaLista = inventarioBeta.splice(0, 5);
+      console.log("A nova lista é:" , novaLista );
