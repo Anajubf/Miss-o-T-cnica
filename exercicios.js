@@ -67,3 +67,10 @@ let inventarioBeta = [
 
   console.log(`Depois do pop: ${inventarioBeta}`);
   console.log(`Elemento removido: ${elementoRemovido1}`);
+
+  // 3.Três novos artefatos da Terra foram entregues à nave Alpha. Adicione-os ao final.
+  inventarioAlpha.push (["Cristal Roxo", "Terra", 1700 ], 
+    ["Anel de Rubi", "Terra", 1500],
+    ["Esfera de luz", "Terra", 5200])
+  
+    console.log(`Depois do push: ${inventarioAlpha}`);
