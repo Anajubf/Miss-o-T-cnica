@@ -86,3 +86,9 @@ let inventarioBeta = [
       inventarioAlpha.unshift(itemDestaque);
       inventarioAlpha.splice (14, 1);
       console.log(`O item que precisa ser destacado e aparecer no topo da lista ${inventarioAlpha} `);
+
+      // 6. Um item da Beta deve ser promovido para o início da lista para estudo prioritário.
+      let itemDestaque1 = inventarioBeta [3];
+      inventarioBeta.unshift(itemDestaque1);
+      inventarioBeta.splice (4, 1);
+      console.log("O item promovido foi:" , inventarioBeta);
