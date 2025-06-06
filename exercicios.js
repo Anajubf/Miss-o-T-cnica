@@ -97,3 +97,8 @@ let inventarioBeta = [
       let elementoRemovido02 = inventarioAlpha.shift();
       console.log("O artefato incorreto removido:", inventarioAlpha);
       console.log("Elemento removido:", elementoRemovido02);
+ 
+      //8. O primeiro item da Beta pertence a um museu e deve ser removido.
+      let elementoRemovido03 = inventarioBeta.shift();
+      console.log("O artefato incorreto removido:", inventarioBeta);
+      console.log("Elemento removido:", elementoRemovido03);
