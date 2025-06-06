@@ -132,5 +132,9 @@ let inventarioBeta = [
       console.log(`Inventários combinados: ${novoInventarioAlpha.concat(novoInvatarioBeta)}`);
       
       //26. Inverta a ordem dos 15 primeiros itens da Alpha como simulação de viagem no tempo.
-      let inventarioAlphaInvertido = inventarioAlpha.reverse();
-      console.log("O invetário Alpha invertido:" , inventarioAlphaInvertido);
+      let inventarioAlphaInvertido = inventarioAlpha.slice(0, 16);
+      let ultimosElementos = inventarioAlpha.slice (17, 28)
+      console.log("O invetário Alpha invertido:" , inventarioAlphaInvertido.reverse());
+      console.log("Os últimos elementos do array:" , inventarioAlphaInvertido.concat(ultimosElementos));
+
+      
