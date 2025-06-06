@@ -121,3 +121,7 @@ let inventarioBeta = [
       //16. Dois itens no meio do inventário Beta foram contaminados e precisam ser removidos.
       inventarioBeta.splice(6, 2);
       console.log("Novo inventário:" , inventarioBeta);
+
+      //17.Unifique os inventários Alpha e Beta em uma única estrutura.
+      console.log(`Inventários combinados: ${inventarioAlpha.concat(inventarioBeta)}`);
+      console.log(`Inventários combinados: ${inventarioAlpha.concat(inventarioBeta).join(', ')}`);
