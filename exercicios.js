@@ -117,3 +117,7 @@ let inventarioBeta = [
       let elementoAlterado = inventarioAlpha.splice(5, 1, "Ampulheta Galáctica 2.0");
       console.log(`A versão mais moderna do quinto item é: ${inventarioAlpha.join(', ')}`);
       console.log(`Elementos alterados: ${elementoAlterado.join(', ')}`);
+
+      //16. Dois itens no meio do inventário Beta foram contaminados e precisam ser removidos.
+      inventarioBeta.splice(6, 2);
+      console.log("Novo inventário:" , inventarioBeta);
